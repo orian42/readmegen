@@ -1,12 +1,12 @@
-# sdfgsdfg
+# The beginning
   
-![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
 
 ## Description
   
 
-dfgjdfg
+This is just a test to see if it works.
   
 
 ## Table of Contents
@@ -28,36 +28,38 @@ dfgjdfg
 ## Installation
   
 
-qweqwer
+Run the code and go!
   
 
 ## Usage
   
 
-ghjfghkj
+Like I said before...
   
 
 ## License
   
 
-Mozilla Public License 2.0 (https://opensource.org/licenses/MPL-2.0)
+MIT License (https://opensource.org/licenses/MIT)
   
 
 ## Contributing
   
 
-zszxdcasdfg
+Contact me for this information.
   
 
 ## Tests
   
 
-rtyrtki
+N/A
   
 
 ## Questions
   
 
-GitHub Profile: https://github.com/dfndfgn
+Any questions regarding this project can be answered by contacting me through my GitHub profile or by email:
   
-email: qwerqwet
+GitHub Profile: https://github.com/orian42
+  
+email: orian42@gmail.com

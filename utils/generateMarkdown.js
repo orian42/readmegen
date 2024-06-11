@@ -92,7 +92,8 @@ function generateMarkdown(data) {
   \n\n## Tests
   \n\n${data.testing}
   \n\n## Questions
-  \n\nGitHub Profile: https://github.com/${data.ghUsername}
+  \n\nAny questions regarding this project can be answered by contacting me through my GitHub profile or by email:
+  \nGitHub Profile: https://github.com/${data.ghUsername}
   \nemail: ${data.email}
 `;
 }
