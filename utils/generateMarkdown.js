@@ -66,7 +66,10 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  return `This application is operating under the following license: **${license}**.  
+  \n\nFurther information regarding this license, to include the required notice, can be read by navigating to the following link: ${renderLicenseLink(license)}.`;
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -86,7 +89,7 @@ function generateMarkdown(data) {
   \n\n## Usage
   \n\n${data.usage}
   \n\n## License
-  \n\n${data.license} (${renderLicenseLink(data.license)})
+  \n\n${renderLicenseSection(data.license)}
   \n\n## Contributing
   \n\n${data.contribute}
   \n\n## Tests

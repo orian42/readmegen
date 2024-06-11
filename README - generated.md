@@ -1,12 +1,12 @@
-# The beginning
+# The Beginning
   
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
   
 
 ## Description
   
 
-This is just a test to see if it works.
+This is yet another in a series of tests.
   
 
 ## Table of Contents
@@ -28,31 +28,34 @@ This is just a test to see if it works.
 ## Installation
   
 
-Run the code and go!
+This application requires no installation.
   
 
 ## Usage
   
 
-Like I said before...
+Navigate to the URL and begin use.
   
 
 ## License
   
 
-MIT License (https://opensource.org/licenses/MIT)
+This application is operating under the following license: **Mozilla Public License 2.0**.  
+  
+
+Further information regarding this license, to include the required notice, can be read by navigating to the following link: https://opensource.org/licenses/MPL-2.0.
   
 
 ## Contributing
   
 
-Contact me for this information.
+Contact me for further information.  See below.
   
 
 ## Tests
   
 
-N/A
+There are none.
   
 
 ## Questions
