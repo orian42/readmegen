@@ -4,28 +4,28 @@ function renderLicenseBadge(license) {
   var licBadge = "";
   switch(license) {
     case "GNU AGPLv3":
-      licBadge = "![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)";
+      licBadge = `![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](${renderLicenseLink(license)})`;
       break;
     case "GNU GPLv3":
-      licBadge = "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+      licBadge = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](${renderLicenseLink(license)})`;
       break;
     case "GNU LGPLv3":
-      licBadge = "![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)";
+      licBadge = `[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](${renderLicenseLink(license)})`;
       break;
     case "Mozilla Public License 2.0":
-      licBadge = "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
+      licBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](${renderLicenseLink(license)})`;
       break;
     case "Apache License 2.0":
-      licBadge = "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+      licBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](${renderLicenseLink(license)})`;
       break;
     case "MIT License":
-      licBadge = "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+      licBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](${renderLicenseLink(license)})`;
       break;
     case "Boost Software License 1.0":
-      licBadge = "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg";
+      licBadge = `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](${renderLicenseLink(license)})`;
       break;
     case "The Unlicense":
-      licBadge = "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)";
+      licBadge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](${renderLicenseLink(license)})`;
       break;
   }
   return licBadge;  
