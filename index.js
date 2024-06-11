@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+const fs = require('fs');
 const inquirer = require('inquirer');
 const genMD = require('./utils/generateMarkdown.js');
 const { default: Choices } = require('inquirer/lib/objects/choices');
@@ -55,15 +56,21 @@ const questions = [
         },
     ])
     .then((response) =>
-        console.log(response)
+        writeToFile("README - generated.md", genMD.generateMarkdown(response))
     )
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.error("An error has occurred.", err) : console.log(`README file was successfully created!`)
+    );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    
+}
 
 // Function call to initialize app
 init();
