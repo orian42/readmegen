@@ -1,12 +1,12 @@
-# The Beginning
+# README Generator
   
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
 ## Description
   
 
-This is yet another in a series of tests.
+When utilized, this application will generate a professional, high-quality README.md file integrating responses from a user to populate the different sections of the file.  This will make adding required REDME files much easier to create.
   
 
 ## Table of Contents
@@ -28,34 +28,34 @@ This is yet another in a series of tests.
 ## Installation
   
 
-This application requires no installation.
+There are no installation steps necessary to utilize this application.
   
 
 ## Usage
   
 
-Navigate to the URL and begin use.
+The application is used by running it through a terminal such as GitBash utlizing the following command line: node index.js.  The application will ask a series of questions to which the user will provide input.  When  complete, the application will create a file titled "README - generated.md".  This file can be renamed and edited as the user sees fit.  The file can also be copied and/or moved to another file location.
   
 
 ## License
   
 
-This application is operating under the following license: **Mozilla Public License 2.0**.  
+This application is operating under the following license: **MIT License**.  
   
 
-Further information regarding this license, to include the required notice, can be read by navigating to the following link: https://opensource.org/licenses/MPL-2.0.
+Further information regarding this license, to include the required notice, can be read by navigating to the following link: https://opensource.org/licenses/MIT.
   
 
 ## Contributing
   
 
-Contact me for further information.  See below.
+Anyone wishing to contribute to this project can do so by contacting me via the information located in the "Questions" section below.
   
 
 ## Tests
   
 
-There are none.
+There are no testing examples.
   
 
 ## Questions

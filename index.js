@@ -69,8 +69,8 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    
+    //This function was in place at the beginning of the challenge; however, I did not need to use this to get my application to work.  It was NOT missed - just not used.
 }
 
 // Function call to initialize app
-init();
+init();  //This was in place calling a function I am not using.
