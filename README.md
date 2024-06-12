@@ -36,7 +36,7 @@ There are no installation steps necessary to utilize this application.
 
 The application is used by running it through a terminal such as GitBash utlizing the following command line: node index.js.  The application will ask a series of questions to which the user will provide input.  When  complete, the application will create a file titled "README - generated.md".  This file can be renamed and edited as the user sees fit.  The file can also be copied and/or moved to another file location.
 
-A video demonstration of this application can be viewed at https://app.screencastify.com/v2/manage/videos/pxDM0ShXVE0bXRDGfGhv.
+A video demonstration of this application can be viewed at https://drive.google.com/file/d/1w2SE0cIZdlfKBiDmE4Kha6GSFRKSN1ag/view.
 
 The repository for this application can be viewed at https://github.com/orian42/readmegen.
 
