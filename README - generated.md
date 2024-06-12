@@ -1,4 +1,4 @@
-# README Generator
+# Weather Dashboard
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -6,7 +6,7 @@
 ## Description
   
 
-When utilized, this application will generate a professional, high-quality README.md file integrating responses from a user to populate the different sections of the file.  This will make adding required REDME files much easier to create.
+This is a simple weather application.  When the user searches a city name, the weather and 5-day midday forecast is displayed on the page.  Furthermore, a button is created for that city which the user can click to more conveniently see that city's weather.
   
 
 ## Table of Contents
@@ -28,13 +28,13 @@ When utilized, this application will generate a professional, high-quality READM
 ## Installation
   
 
-There are no installation steps necessary to utilize this application.
+No installation steps are necessary once the website is visited.
   
 
 ## Usage
   
 
-The application is used by running it through a terminal such as GitBash utlizing the following command line: node index.js.  The application will ask a series of questions to which the user will provide input.  When  complete, the application will create a file titled "README - generated.md".  This file can be renamed and edited as the user sees fit.  The file can also be copied and/or moved to another file location.
+Anyone with the link (https://orian42.github.io/weather/) can use this application.  The application can be used simply by entering a city in the search input box then clicking the search button.  The weather data will be displayed to the screen.  A history button labeled with the most recent search's city will be created and placed below the search button.  A user can simply click that new button to see that city's weather.  Note that if the user manually searches for a city that already has a button displayed, a new button for that city WIL NOT be created to avoid duplicate buttons.  Furthermore, a limit of eight (8) buttons has been set.  If eight buttons already exist and a new city is searched, the last button is deleted when the new button is added.  All history buttons and search history can be cleared by clicking the Clear History button.
   
 
 ## License
@@ -65,4 +65,4 @@ Any questions regarding this project can be answered by contacting me through my
   
 GitHub Profile: https://github.com/orian42
   
-email: orian42@gmail.com
+email: orian@gmail.com
