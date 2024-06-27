@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Dependencies for this file
 const fs = require('fs');
 const inquirer = require('inquirer');
 const genMD = require('./utils/generateMarkdown.js');
 const { default: Choices } = require('inquirer/lib/objects/choices');
 
-// TODO: Create an array of questions for user input
+// This is a list of questions that will allow the user to populate the README file
 const questions = [
     inquirer
     .prompt([
@@ -17,6 +17,7 @@ const questions = [
         type: "list",
         message: "Under which license is your project operating?",
         name: "license",
+        // There were more licenses to choose from but I picked what appears to be the most common ones
         choices: ["GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "Boost Software License 1.0", "The Unlicense"]
         },
         {
@@ -55,18 +56,19 @@ const questions = [
         name: "email"
         },
     ])
-    .then((response) =>
+    .then((response) =>  //generates the README once the user input is complete
         writeToFile("README - generated.md", genMD.generateMarkdown(response))
     )
 ];
 
-// TODO: Create a function to write README file
+// This function writes the user responses to a file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.error("An error has occurred.", err) : console.log(`README file was successfully created!`)
     );
 }
 
+//-------------------------------------------------------------------------------------------------------------------
 // TODO: Create a function to initialize app
 function init() {
     //This function was in place at the beginning of the challenge; however, I did not need to use this to get my application to work.  It was NOT missed - just not used.

@@ -1,4 +1,4 @@
-# Weather Dashboard
+# Note Taker
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -6,7 +6,7 @@
 ## Description
   
 
-This is a simple weather application.  When the user searches a city name, the weather and 5-day midday forecast is displayed on the page.  Furthermore, a button is created for that city which the user can click to more conveniently see that city's weather.
+This is a simple note-taking application that allows the user to write and save notes so they can  organize their thoughts and keep track of tasks they need to complete.
   
 
 ## Table of Contents
@@ -28,13 +28,13 @@ This is a simple weather application.  When the user searches a city name, the w
 ## Installation
   
 
-No installation steps are necessary once the website is visited.
+There is no installation process.  The user just needs to visit the webpage.
   
 
 ## Usage
   
 
-Anyone with the link (https://orian42.github.io/weather/) can use this application.  The application can be used simply by entering a city in the search input box then clicking the search button.  The weather data will be displayed to the screen.  A history button labeled with the most recent search's city will be created and placed below the search button.  A user can simply click that new button to see that city's weather.  Note that if the user manually searches for a city that already has a button displayed, a new button for that city WIL NOT be created to avoid duplicate buttons.  Furthermore, a limit of eight (8) buttons has been set.  If eight buttons already exist and a new city is searched, the last button is deleted when the new button is added.  All history buttons and search history can be cleared by clicking the Clear History button.
+I will do this part manually.
   
 
 ## License
@@ -65,4 +65,4 @@ Any questions regarding this project can be answered by contacting me through my
   
 GitHub Profile: https://github.com/orian42
   
-email: orian@gmail.com
+email: orian42@gmail.com
